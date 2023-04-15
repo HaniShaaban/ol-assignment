@@ -35,7 +35,7 @@ export const typeDefs = gql`
 
     type Query {
         phases(status: PROGRESS_STATUS, page: Int = 1):[Phase]!   
-        tasks(status: PROGRESS_STATUS, page: Int): [Task]!
+        tasks(status: PROGRESS_STATUS, page: Int = 1): [Task]!
     }
     
     type Mutation {

@@ -24,8 +24,7 @@ query Phases($status: PROGRESS_STATUS, $page: Int) {
 params:
 ```
 {
-  "status":  null,
-  "page": null
+  "status":  null
 }
 ```
 
@@ -48,8 +47,7 @@ query tasks($status: PROGRESS_STATUS, $page: Int) {
 params:
 ```
 {
-  "status": null,
-  "page": null
+  "status": null
 }
 ```
 

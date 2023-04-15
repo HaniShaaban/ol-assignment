@@ -1,7 +1,8 @@
 import {PHASES_BATCH_LIMIT} from "../../config";
 import {phasesData} from "../../dataStore/seed";
-export const getPhases =  (_,{status, page = 1 }) => {
+export const getPhases =  (_,{status, page  }) => {
     try {
+
         // Take into consideration pagination if needed
         const skip = PHASES_BATCH_LIMIT * page;
 
